@@ -19,24 +19,15 @@ namespace Lektion_9_rock_paper_scissors
                 Console.WriteLine("\nChoose your hand!");
                 Console.WriteLine("Rock [1]\nPaper [2]\nScissors [3]");
                 int chosenNum = Convert.ToInt32(Console.ReadLine());
-
                 string chosenHand;
 
-                switch (chosenNum)
-                {
-                    case 1:
-                    chosenHand = "Rock";
-                    break;
-                    case 2:
-                    chosenHand = "Paper";
-                    break;
-                    case 3:
-                    chosenHand = "Scissors";
-                    break;
-                    default:
+                if (0 < chosenNum && chosenNum < 4) {
+                    chosenHand = ChosenHand(chosenNum);
+                } else {
                     Console.WriteLine("That was an invalid entry. Please try again.\n");
                     goto Choose;
                 }
+
                 Console.WriteLine("\nYour chosen hand is: " + chosenHand);
 
                 Random numberGenerator = new Random();
@@ -57,7 +48,7 @@ namespace Lektion_9_rock_paper_scissors
 
             } while (continuePlay == true);
         }
-        static string ChosenHand(number) {
+        static string ChosenHand(int number) {
             string chosenHand;
             switch (number)
             {
@@ -69,6 +60,9 @@ namespace Lektion_9_rock_paper_scissors
                 break;
                 case 3:
                 chosenHand = "Scissors";
+                break;
+                default:
+                chosenHand = "Not defined";
                 break;
             }
             return chosenHand;
