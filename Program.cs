@@ -57,8 +57,21 @@ namespace Lektion_9_rock_paper_scissors
 
             } while (continuePlay == true);
         }
-        static int ChosenHand() {
-            
+        static string ChosenHand(number) {
+            string chosenHand;
+            switch (number)
+            {
+                case 1:
+                chosenHand = "Rock";
+                break;
+                case 2:
+                chosenHand = "Paper";
+                break;
+                case 3:
+                chosenHand = "Scissors";
+                break;
+            }
+            return chosenHand;
         }
     }
 }
