@@ -38,7 +38,27 @@ namespace Lektion_9_rock_paper_scissors
                     goto Choose;
                 }
                 Console.WriteLine("\nYour chosen hand is: " + chosenHand);
+
+                Random numberGenerator = new Random();
+                int computerNum = numberGenerator.Next(1,4); //randomly generate number between 1 and 3
+
+                switch (computerNum)
+                {
+                    case 1:
+                    Console.WriteLine("The computer's hand is: Rock");
+                    break;
+                    case 2:
+                    Console.WriteLine("The computer's hand is: Paper");
+                    break;
+                    case 3:
+                    Console.WriteLine("The computer's hand is: Scissors");
+                    break;
+                }
+
             } while (continuePlay == true);
+        }
+        static int ChosenHand() {
+            
         }
     }
 }
