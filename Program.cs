@@ -39,10 +39,6 @@ namespace Lektion_9_rock_paper_scissors
                 
                 string chosenHand = ChosenHand(chosenNum); //assign the player a hand;
 
-                /*if (0 < chosenNum && chosenNum < 4) {
-                    chosenHand = ChosenHand(chosenNum); //assign the player a hand
-                }*/
-
                 Console.WriteLine("\nYour chosen hand is: " + chosenHand);
 
                 Random numberGenerator = new Random();
@@ -67,11 +63,10 @@ namespace Lektion_9_rock_paper_scissors
                 Console.WriteLine("[2] No");
 
                 string selectionContinueNumber = Console.ReadLine();
-                int continueToPlaySelection;
+                
                 switch (selectionContinueNumber)
                 {
                     case "1":
-                    continueToPlaySelection = Convert.ToInt32(Console.ReadLine());
                     Console.Clear();
                     Console.WriteLine("\nLovely! Let's play again! :)");
                     break;
@@ -85,17 +80,6 @@ namespace Lektion_9_rock_paper_scissors
                     Console.WriteLine("\nThis is an invalid entry! Please try again.");
                     goto PlayAgain;
                 }
-
-                /*if (continueToPlaySelection == 1) {
-                    Console.Clear();
-                    Console.WriteLine("\nLovely! Let's play again! :)");
-                } else if (continueToPlaySelection ==2) {
-                    Console.WriteLine("\nThank you for playing!");
-                    continuePlay = false;
-                } else {
-                    Console.WriteLine("\nThis is an invalid entry! Please try again.");
-                    goto PlayAgain;
-                }*/
 
             } while (continuePlay == true);
             
