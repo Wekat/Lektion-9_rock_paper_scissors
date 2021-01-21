@@ -6,7 +6,7 @@ namespace Lektion_9_rock_paper_scissors
     {
         static void Main(string[] args)
         {
-            Introduction(); //function for introduction text
+            Introduction(); //function for introduction text if I would like to add it at a later point in the program
 
             bool continuePlay = true;
 
