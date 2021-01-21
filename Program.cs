@@ -65,9 +65,28 @@ namespace Lektion_9_rock_paper_scissors
                 Console.WriteLine("\nDo you want to play again?");
                 Console.WriteLine("[1] Yes");
                 Console.WriteLine("[2] No");
-                int continueToPlaySelection = Convert.ToInt32(Console.ReadLine());
 
-                if (continueToPlaySelection == 1) {
+                string selectionContinueNumber = Console.ReadLine();
+                int continueToPlaySelection;
+                switch (selectionContinueNumber)
+                {
+                    case "1":
+                    continueToPlaySelection = Convert.ToInt32(Console.ReadLine());
+                    Console.Clear();
+                    Console.WriteLine("\nLovely! Let's play again! :)");
+                    break;
+
+                    case "2":
+                    Console.WriteLine("\nThank you for playing!");
+                    continuePlay = false;
+                    break;
+
+                    default:
+                    Console.WriteLine("\nThis is an invalid entry! Please try again.");
+                    goto PlayAgain;
+                }
+
+                /*if (continueToPlaySelection == 1) {
                     Console.Clear();
                     Console.WriteLine("\nLovely! Let's play again! :)");
                 } else if (continueToPlaySelection ==2) {
@@ -76,7 +95,7 @@ namespace Lektion_9_rock_paper_scissors
                 } else {
                     Console.WriteLine("\nThis is an invalid entry! Please try again.");
                     goto PlayAgain;
-                }
+                }*/
 
             } while (continuePlay == true);
             
