@@ -1,0 +1,16 @@
+C:\Users\wests\OneDrive\Documents\Technical Artist\Objektorienterad programmering\Övningar\Lektion 9_rock_paper_scissors\bin\Debug\net5.0\Lektion 9_rock_paper_scissors.exe
+C:\Users\wests\OneDrive\Documents\Technical Artist\Objektorienterad programmering\Övningar\Lektion 9_rock_paper_scissors\bin\Debug\net5.0\Lektion 9_rock_paper_scissors.deps.json
+C:\Users\wests\OneDrive\Documents\Technical Artist\Objektorienterad programmering\Övningar\Lektion 9_rock_paper_scissors\bin\Debug\net5.0\Lektion 9_rock_paper_scissors.runtimeconfig.json
+C:\Users\wests\OneDrive\Documents\Technical Artist\Objektorienterad programmering\Övningar\Lektion 9_rock_paper_scissors\bin\Debug\net5.0\Lektion 9_rock_paper_scissors.runtimeconfig.dev.json
+C:\Users\wests\OneDrive\Documents\Technical Artist\Objektorienterad programmering\Övningar\Lektion 9_rock_paper_scissors\bin\Debug\net5.0\Lektion 9_rock_paper_scissors.dll
+C:\Users\wests\OneDrive\Documents\Technical Artist\Objektorienterad programmering\Övningar\Lektion 9_rock_paper_scissors\bin\Debug\net5.0\ref\Lektion 9_rock_paper_scissors.dll
+C:\Users\wests\OneDrive\Documents\Technical Artist\Objektorienterad programmering\Övningar\Lektion 9_rock_paper_scissors\bin\Debug\net5.0\Lektion 9_rock_paper_scissors.pdb
+C:\Users\wests\OneDrive\Documents\Technical Artist\Objektorienterad programmering\Övningar\Lektion 9_rock_paper_scissors\obj\Debug\net5.0\Lektion 9_rock_paper_scissors.csprojAssemblyReference.cache
+C:\Users\wests\OneDrive\Documents\Technical Artist\Objektorienterad programmering\Övningar\Lektion 9_rock_paper_scissors\obj\Debug\net5.0\Lektion 9_rock_paper_scissors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wests\OneDrive\Documents\Technical Artist\Objektorienterad programmering\Övningar\Lektion 9_rock_paper_scissors\obj\Debug\net5.0\Lektion 9_rock_paper_scissors.AssemblyInfoInputs.cache
+C:\Users\wests\OneDrive\Documents\Technical Artist\Objektorienterad programmering\Övningar\Lektion 9_rock_paper_scissors\obj\Debug\net5.0\Lektion 9_rock_paper_scissors.AssemblyInfo.cs
+C:\Users\wests\OneDrive\Documents\Technical Artist\Objektorienterad programmering\Övningar\Lektion 9_rock_paper_scissors\obj\Debug\net5.0\Lektion 9_rock_paper_scissors.csproj.CoreCompileInputs.cache
+C:\Users\wests\OneDrive\Documents\Technical Artist\Objektorienterad programmering\Övningar\Lektion 9_rock_paper_scissors\obj\Debug\net5.0\Lektion 9_rock_paper_scissors.dll
+C:\Users\wests\OneDrive\Documents\Technical Artist\Objektorienterad programmering\Övningar\Lektion 9_rock_paper_scissors\obj\Debug\net5.0\ref\Lektion 9_rock_paper_scissors.dll
+C:\Users\wests\OneDrive\Documents\Technical Artist\Objektorienterad programmering\Övningar\Lektion 9_rock_paper_scissors\obj\Debug\net5.0\Lektion 9_rock_paper_scissors.pdb
+C:\Users\wests\OneDrive\Documents\Technical Artist\Objektorienterad programmering\Övningar\Lektion 9_rock_paper_scissors\obj\Debug\net5.0\Lektion 9_rock_paper_scissors.genruntimeconfig.cache

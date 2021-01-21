@@ -6,10 +6,7 @@ namespace Lektion_9_rock_paper_scissors
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the wonderful game of Rock/Paper/Scissors!\n");
-            Console.WriteLine("Rules: You choose between Rock, Paper or Scissors.");
-            Console.WriteLine("The computer will randomly do the same.\n");
-            Console.WriteLine("How you win: Rock wins Scissors, Paper wins Rock and Scissors wins Paper.");
+            Introduction(); //function for introduction text
 
             bool continuePlay = true;
 
@@ -37,7 +34,7 @@ namespace Lektion_9_rock_paper_scissors
 
                 Console.WriteLine("The computer's hand is: " + computerHand);
 
-                if (chosenNum == computerNum++ || chosenNum == computerNum - 2)
+                if (chosenNum == computerNum + 1 || chosenNum == computerNum - 2)
                 {
                     Console.WriteLine("\nYou win!");
                 } else if (chosenNum == computerNum) {
@@ -46,16 +43,27 @@ namespace Lektion_9_rock_paper_scissors
                     Console.WriteLine("\nYou loose!");
                 }
 
+                PlayAgain:
                 Console.WriteLine("\nDo you want to play again?");
                 Console.WriteLine("[1] Yes");
                 Console.WriteLine("[2] No");
                 int continueToPlaySelection = Convert.ToInt32(Console.ReadLine());
 
                 if (continueToPlaySelection == 1) {
-
+                    Console.Clear();
+                    Console.WriteLine("\nLovely! Let's play again! :)");
+                } else if (continueToPlaySelection ==2) {
+                    Console.WriteLine("\nThank you for playing!");
+                    continuePlay = false;
+                } else {
+                    Console.WriteLine("\nThis is an invalid entry! Please try again.");
+                    goto PlayAgain;
                 }
 
             } while (continuePlay == true);
+            
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
         static string ChosenHand(int number) {
             string chosenHand;
