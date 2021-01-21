@@ -15,15 +15,33 @@ namespace Lektion_9_rock_paper_scissors
                 Choose:
                 Console.WriteLine("\nChoose your hand!");
                 Console.WriteLine("Rock [1]\nPaper [2]\nScissors [3]");
-                int chosenNum = Convert.ToInt32(Console.ReadLine());
-                string chosenHand;
+                string selectionNumber = Console.ReadLine();
+                int chosenNum;
 
-                if (0 < chosenNum && chosenNum < 4) {
-                    chosenHand = ChosenHand(chosenNum); //assign the player a hand
-                } else {
+                switch (selectionNumber)
+                {
+                    case "1":
+                    chosenNum = Convert.ToInt32(selectionNumber);
+                    break;
+
+                    case "2":
+                    chosenNum = Convert.ToInt32(selectionNumber);
+                    break;
+
+                    case "3":
+                    chosenNum = Convert.ToInt32(selectionNumber);
+                    break;
+                    
+                    default:
                     Console.WriteLine("That was an invalid entry. Please try again.\n");
                     goto Choose;
                 }
+                
+                string chosenHand = ChosenHand(chosenNum); //assign the player a hand;
+
+                /*if (0 < chosenNum && chosenNum < 4) {
+                    chosenHand = ChosenHand(chosenNum); //assign the player a hand
+                }*/
 
                 Console.WriteLine("\nYour chosen hand is: " + chosenHand);
 
